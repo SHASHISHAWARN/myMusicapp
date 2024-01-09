@@ -1,0 +1,129 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: black;
+} */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* border:2px solid red; */
+}
+.navul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:2px solid red; */
+}
+.navulli{
+    list-style: none;
+    padding:12px;
+   font-size: bold;
+   cursor: pointer;
+
+}
+.btn button{
+    /* margin:2px; */
+    width:100px;
+    height:32px;
+    border-radius:8px;
+    cursor: pointer;
+}
+.musicContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    margin:20px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:60vw;
+    height:70vh;
+    border-radius:8px;
+    border:2px solid rgb(63, 50, 50);
+    padding:52px;
+    background-image: url('musicwall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+.dih1{
+    /* border:2px solid green; */
+    text-align: center;
+    margin:22px;
+}
+.dih1 h1{
+font-size: 31px;
+color:green;
+}
+.songcontainer{
+    color:rgb(255 248 255);
+    display:flex;
+    /* justify-content:flex-end; */
+justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.songs{
+    /* border: 1px solid green; */
+    height: 42px;
+    width: 388px;
+    margin: 9px;
+    border-radius: 29px;
+   background-color:#3d3df040;
+
+}
+.inputbox{
+    /* border: 2px solid green;  */
+}
+#input{
+    width: 888px;
+    height:4px;
+}
+.playpauseimg{
+    display:flex;
+justify-content:center;
+    align-items: center;
+    /* border: 2px solid rgb(144, 159, 144);  */
+    margin:10px;
+
+}
+.playpauseimg img{
+    width: 52px;
+    height:52px;
+    cursor: pointer;
+    background-color:#e600ca9C;
+    border-radius:50px;
+    margin:2px;
+
+} 
+.songname{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    /* border:2px solid red; */
+    height:39px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#frdbtn{
+    width:50px;
+    height:48px;
+}
+.imglogonav img{
+    width:50px;
+    height:48px;
+}
+.navbox1{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+} 
